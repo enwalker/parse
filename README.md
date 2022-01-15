@@ -14,14 +14,14 @@ This library pretends to make Parse usable in a Eloquent-like manner. For Larave
 
 Install the library with Composer:
 
-    composer require parziphal/parse
+    composer require enwalker/parse
 
 Add the service provider in your `config/app.php` file:
 
 ```php
 'providers' => [
     // etc...
-    Parziphal\Parse\ParseServiceProvider::class,
+    enwalker\Parse\ParseServiceProvider::class,
 ],
 ```
 
