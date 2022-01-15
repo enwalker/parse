@@ -1,5 +1,5 @@
 {
-    "name": "parziphal/parse",
+    "name": "enwalker/parse",
     "description": "An Eloquent-like interface for Parse",
     "keywords": ["laravel", "parse", "sdk", "parse-sdk", "eloquent"],
     "license": "MIT",
@@ -10,13 +10,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Parziphal\\Parse\\": "src/"
+            "enwalker\\Parse\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Parziphal\\Parse\\ParseServiceProvider"
+                "enwalker\\Parse\\ParseServiceProvider"
             ]
         }
     },
